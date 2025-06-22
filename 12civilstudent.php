@@ -16,7 +16,7 @@ if($conn){
 }
 $abc="Insert into 12civilstudent(Rollno,name,address,contact)values('$a','$b','$c','$d')";
 if($conn->query($abc)){
-    eheader('Location:student12civil.html');
+    header('Location:student12civil.html');
 }
 
 
